@@ -1,0 +1,60 @@
+/*---------------------basic css---------------------*/
+/*======================================================================== 
+                                Home page 
+========================================================================*/
+
+
+#home {
+    height: 45em;
+}
+
+.center{
+    position:absolute; 
+    top: 20%;
+    left: 0%;
+}
+
+.button{
+    border-style:solid;
+    border-width: 2px;
+    border-top-color: #bdbdbd;
+    border-right-color: #bdbdbd;
+    border-bottom-color: #bdbdbd;
+    border-left-color: #bdbdbd;
+}
+
+
+
+/*======================================================================== 
+                                About page 
+========================================================================*/
+
+#skills li{
+    margin-top: 1.99em;  
+}
+
+
+
+#skills .bars{
+    border-style:solid;
+    border-width: 2px;
+    border-top-color: #bdbdbd;
+    border-right-color: #bdbdbd;
+    border-bottom-color: #bdbdbd;
+    border-left-color: #bdbdbd;
+}
+
+
+
+/*======================================================================== 
+                                Portfolio page 
+========================================================================*/
+.box{  
+    position: absolute; 			
+    top: auto;       
+    left: 15%;       
+    width:auto;		
+    height:auto;	
+}
+
+
