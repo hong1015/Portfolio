@@ -106,36 +106,52 @@ var aboutMe = document.getElementById("about");
     bhtml = document.getElementById("barHtml");
     css = document.getElementById("css3");
     jScript = document.getElementById("js");
-    ph = document.getElementById("php");
+    jq = document.getElementById("jq");
+    rea = document.getElementById("react");
+    ngr = document.getElementById("angular");
     ps = document.getElementById("photoshop");
     illustrator = document.getElementById("il");
-    ind = document.getElementById("in");
+    ph = document.getElementById("php");
     bhw = 0;
     csw = 0;
     jsw = 0;
+    jqw = 0;
     phw = 0;
     psw = 0;
     ilw = 0;
-    indw = 0;
+    ngrw = 0;
+    reaw = 0;
 
 function moveIt() {	
-    bhw += (90 - bhw) * 0.025;	
+    bhw += (99 - bhw) * 0.025;	
     bhtml.style.width = bhw + "%";
     bhtml.style.background = "#8acbf1";          
     
-    csw += (85 - csw) * 0.025;			
+    csw += (99 - csw) * 0.025;			
     css.style.width = csw + "%";           
     css.style.background = "#8acbf1";
     
-    jsw += (80 - jsw) * 0.025;
+    jsw += (90 - jsw) * 0.025;
     jScript.style.width = jsw + "%";  
     jScript.style.background = "#8acbf1";
     
+    jqw += (95 - jqw) * 0.025;
+    jq.style.width = jqw + "%";
+    jq.style.background = "#8acbf1";
+
+    reaw += (60 - reaw) * 0.025
+    rea.style.width = reaw + "%";
+    rea.style.background = "#8acbf1";
+
+    ngrw += (60 - ngrw) * 0.025
+    ngr.style.width = ngrw + "%";
+    ngr.style.background = "#8acbf1";
+
     phw += (50 - phw) * 0.025
     ph.style.width = phw + "%";
     ph.style.background = "#8acbf1";
     
-    psw += (80 - psw) * 0.025
+    psw += (90 - psw) * 0.025
     ps.style.width = psw + "%";
     ps.style.background = "#8acbf1";
     
@@ -143,9 +159,7 @@ function moveIt() {
     illustrator.style.width = ilw + "%";
     illustrator.style.background = "#8acbf1";
     
-    indw += (70 - indw) * 0.025
-    ind.style.width = indw + "%";
-    ind.style.background = "#8acbf1";      
+
     
     requestAnimFrame(moveIt, aboutMe);
     
