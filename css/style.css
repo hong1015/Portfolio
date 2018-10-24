@@ -332,7 +332,9 @@ nav > ul > li > a{
     height: 26em;
     margin: 0% 4% 4em 4%;
 }
-
+.galleryItem:nth-child(6n+1){
+    clear: both;
+}
 .galleryItem p{  
     margin: 1.5em auto;
 }
