@@ -501,6 +501,7 @@ nav > ul > li > a{
 
 footer{
     background-color: #424242;
+    clear: both;
     height: 5em;
     position: relative;
 }
