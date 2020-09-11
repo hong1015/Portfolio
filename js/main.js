@@ -131,7 +131,7 @@ function moveIt() {
     css.style.width = csw + "%";           
     css.style.background = "#8acbf1";
     
-    jsw += (90 - jsw) * 0.025;
+    jsw += (98 - jsw) * 0.025;
     jScript.style.width = jsw + "%";  
     jScript.style.background = "#8acbf1";
     
@@ -143,7 +143,7 @@ function moveIt() {
     rea.style.width = reaw + "%";
     rea.style.background = "#8acbf1";
 
-    ngrw += (60 - ngrw) * 0.025
+    ngrw += (75 - ngrw) * 0.025
     ngr.style.width = ngrw + "%";
     ngr.style.background = "#8acbf1";
 
